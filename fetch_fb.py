@@ -94,3 +94,7 @@ class FacebookCrawler():
                 return req.text
             except:
                 continue
+
+def __name__ == "__main__":
+    fb = FacebookCrawler()
+    fb.fetch("")
